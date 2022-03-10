@@ -21,5 +21,5 @@ response = requests.request("GET", url, headers=headers, params=querystring)
 temp = response.json()
 
 print()
-print(temp["block"])
+print(temp)
 print()
